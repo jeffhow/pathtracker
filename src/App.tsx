@@ -14,7 +14,7 @@ function App() {
         </a>
       </h1>
     </div>
-    <div className="p-8">
+    <div className="p-8 relative">
       <Abilities />
     </div>
     </>

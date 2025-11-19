@@ -27,7 +27,10 @@
 
 /* 2. Your Custom Global Rulesets */
 
-  .bg-custom-green{
-    background-color: green;
+  .btn-primary{
+    @apply border-none w-8 h-8 rounded-full bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700
+  } 
+  .btn-secondary{
+    @apply border-none w-8 h-8 rounded-full bg-gray-500 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-gray-500 active:bg-gray-700
   } 
 
